@@ -6,6 +6,7 @@ import {
   ComponenteMapEarlyReturn,
 } from "./components/ComponenteMap";
 import { ComponentePadre } from "./components/ComponentePadre";
+import { FormContainer } from "./components/Form/FormContainer";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       </CajaChildren>
 
       <ComponenteMapEarlyReturn /> */}
-      <ComponenteConEfecto />
+      {/* <ComponenteConEfecto /> */}
+      <FormContainer />
     </>
   );
 }
